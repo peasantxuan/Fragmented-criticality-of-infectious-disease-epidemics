@@ -28,7 +28,7 @@ $$
 \overline{\mathbf Y}=(\mathbf I-\widehat{\mathbf R}^{\mathsf T})^{-1}\mathbf 1.
 $$
 
-The ordinary epidemic threshold is the positive real value at which this resolvent is singular. In a structured population, the other stratum-level singularities generally move into the complex $r$-plane. These are the **fragmented critical points**. For a point $r_c$, $\operatorname{Re}r_c$ locates the associated change in transmissibility, $|\operatorname{Im}r_c|$ controls its strength and smearing, and the near-null right eigenvector of
+The ordinary epidemic threshold is the positive real value at which this resolvent is singular. In a structured population, the other stratum-level singularities generally move into the complex $r$-plane. These are the **fragmented critical points**. For a point $r_c$, $\mathrm{Re}\,r_c$ locates the associated change in transmissibility, $|\mathrm{Im}\,r_c|$ controls its strength and smearing, and the near-null right eigenvector of
 
 $$
 \mathbf L=\mathbf I-\mathbf U,\qquad U_{ij}=(1-p_i)R_{ji},
@@ -38,7 +38,7 @@ identifies the involved strata. Mode localization is reported as $\widetilde w_i
 
 $$
 \overline{\mathbf Y}\propto
-\frac{\mathbf w}{\sqrt{(r-\operatorname{Re}r_c)^2+(\operatorname{Im}r_c)^2}}.
+\frac{\mathbf w}{\sqrt{(r-\mathrm{Re}\,r_c)^2+(\mathrm{Im}\,r_c)^2}}.
 $$
 
 Thus epidemic emergence is described by a critical landscape—when, how sharply, and in which subpopulations vulnerability appears—rather than only by one system-wide threshold.
