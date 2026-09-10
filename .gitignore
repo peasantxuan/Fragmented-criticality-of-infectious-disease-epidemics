@@ -1,0 +1,13 @@
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Empirical inputs are local by default; never commit restricted Meta data.
+data/*
+!data/README.md
+
+# Generated figures are reproducible outputs.
+figures/*
+!figures/.gitkeep
