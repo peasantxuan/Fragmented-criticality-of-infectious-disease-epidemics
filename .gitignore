@@ -4,9 +4,14 @@
 __pycache__/
 *.py[cod]
 
-# Empirical inputs are local by default; never commit restricted Meta data.
-data/*
-!data/README.md
+# Restricted Meta mobility inputs must remain local.
+data/italy_colocation.csv
+data/texas_colocation.csv
+data/restricted/
+data/**/*colocation*.csv
+data/**/*Colocation*.csv
+data/**/*facebook*.csv
+data/**/*Facebook*.csv
 
 # Generated figures are reproducible outputs.
 figures/*
